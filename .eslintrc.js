@@ -23,6 +23,7 @@ module.exports = {
         "@typescript-eslint"
     ],
     "rules": {
-        "@typescript-eslint/no-var-requires": 0
+        "@typescript-eslint/no-var-requires": 0,
+        '@typescript-eslint/no-non-null-assertion': 'off'
     }
 }
